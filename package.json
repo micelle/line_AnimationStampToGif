@@ -1,0 +1,24 @@
+{
+  "name": "AnimationStampToGif",
+  "version": "1.0.0",
+  "description": "Converts an animation stamp to GIF.",
+  "main": "index.js",
+  "dependencies": {
+    "apng2gif": "^1.7.0",
+    "gifsicle": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micelle/line_AnimationStampToGif.git"
+  },
+  "author": "micelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micelle/line_AnimationStampToGif/issues"
+  },
+  "homepage": "https://github.com/micelle/line_AnimationStampToGif#readme"
+}
