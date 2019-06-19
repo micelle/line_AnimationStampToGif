@@ -2,7 +2,7 @@ AnimationStamp To Gif
 =====
 `%LocalAppData%\LINE\Data\Sticker`に保存されているLINEのアニメーションスタンプ（APNG）をGIFアニメーションにするだけのJavaScriptです。
 
-![AnimationStamp To Gif](http://i.imgur.com/Jjwsc.jpg "スクリーンショット")
+![AnimationStamp To Gif](https://prfac.com/wp-content/uploads/2019/06/0d40a5e4a645fc6b96e767d64ac0878e.jpg "スクリーンショット")
 
 ## 使い方
 1. 適当なディレクトリへダウンロード
