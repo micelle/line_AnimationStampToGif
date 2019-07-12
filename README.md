@@ -14,7 +14,7 @@ AnimationStamp To Gif
 node.jsがインストールされたWindows10 64bitで動作確認済み。
 
 ## メモ
-デフォルトでは無限ループのGIFアニメーションになっています。もし回数指定をしたい場合は`'--loop'`を弄ることでたぶん設定可能だと思います。
+デフォルトでは無限ループのGIFアニメーションになっています。もし回数指定をしたい場合は`-loopcount=0`を弄ることでたぶん設定可能だと思います。
 設定については[gifsicle - npm](https://www.npmjs.com/package/gifsicle)および[Gifsicle: Command-Line Animated GIFs](https://www.lcdf.org/gifsicle/)をご確認ください。
 
 LINEがインストールされていない環境、アニメーションスタンプがない環境ではエラーになるかもしれません。

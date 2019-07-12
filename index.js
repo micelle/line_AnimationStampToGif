@@ -21,11 +21,12 @@ console.log('アニメーションスタンプのチェックが完了しまし�
     console.log(`${i + 1}/${n} ${res}`);
   }
 })();
+
 function convert(filePath) {
   return new Promise(resolve => {
     const fileName = filePath.match(/\\(\d+)\.png/)[1];
     apng2gif(filePath, `gif/tmp_${fileName}.gif`).then(() => {
-      execFile(gifsicle, ['--loop', '-o', `gif/${fileName}.gif`, `gif/tmp_${fileName}.gif`], err => {
+      execFile(gifsicle, ['-loopcount=0', '-Okeep-empty', '-O2', '-o', `gif/${fileName}.gif`, `gif/tmp_${fileName}.gif`], err => {
         fs.unlinkSync(`gif/tmp_${fileName}.gif`); // tmpファイルを削除
         resolve(`${fileName}.pngのエンコードが完了しました。`);
       });
